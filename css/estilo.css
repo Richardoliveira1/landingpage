@@ -236,12 +236,18 @@ h1 {
 }
 
 .texto-endereco p {
-    width: 400px;
+    width: auto;
     font-size: 20px;
+}
+.container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
 }
 
 .mapa-responsivo {
-    position: relative;
+    position: absolute;
     margin-top: 10px;
     top: 0;
     left: 0;
@@ -269,6 +275,12 @@ h1 {
     height: 100%;
 }
 
+.container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+}
 
 footer {
     height: 80px;
@@ -329,14 +341,14 @@ footer span {
     }
 
     .container-mapa {
-        position: absolute;
+        position: relative;
         overflow: hidden;
         width: 100%;
         padding-top: 20%;
     }
 
     .mapa-responsivo {
-        position: relative;
+        position: absolute;
         margin-top: 10px;
         top: 0;
         left: 0;
